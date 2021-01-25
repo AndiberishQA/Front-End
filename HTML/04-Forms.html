@@ -13,54 +13,63 @@
     <!-- GET = Arguments are appended to the URL of the request -->
     <!-- POST = Information is sent in the body of the request -->
     <form method="GET" action="">
-        <label>Enter your username: </label>
-        <input type="text" name="username" required/>
-        <br />
-        <label>Enter your password:</label>
-        <input type="password" name="pwd" />
-        <br />
-        <label>Enter their email:</label>
-        <input type="email" name="email"/>
-        <br />
-        <label>Enter your phone:</label>
-        <input type="tel" name="tel" value="1232345234234343" pattern="[0-9]{11,13}"/>
-        <br />
-        <label>URL of the company you work at:</label>
-        <input type="url" name="url" />
-        <br />
-        <label>Gender:</label>
-        <input type="radio" id="male" name="gender">Male </input>
-        <input type="radio" id="female" name="gender">Female </input>
-        <input type="radio" id="pnts" name="gender">Prefer Not to say </input>
-        <br/>
+        <fieldset>
+            <legend>Personal Info</legend>
+            <label>Enter your username: </label>
+            <input type="text" name="username" required />
+            <br />
+            <label>Enter your password:</label>
+            <input type="password" name="pwd" />
+            <br />
+            <label>Enter their email:</label>
+            <input type="email" name="email" />
+            <br />
+            <label>Enter your phone:</label>
+            <input type="tel" name="tel" value="1232345234234343" pattern="[0-9]{11,13}" />
+            <br />
+            <label>URL of the company you work at:</label>
+            <input type="url" name="url" />
+            <br />
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender">Male </input>
+            <input type="radio" id="female" name="gender">Female </input>
+            <input type="radio" id="pnts" name="gender">Prefer Not to say </input>
+            <br />
+        </fieldset>
 
-        <label>What food do you like?</label>
-        <input type="checkbox">Chicken</input>
-        <input type="checkbox">Pepes</input>
-        <input type="checkbox">KFC</input>
-        <input type="checkbox">Maccys</input>
+        <fieldset>
+            <legend>Preferences</legend>
+            <label>What food do you like?</label>
+            <input type="checkbox">Chicken</input>
+            <input type="checkbox">Pepes</input>
+            <input type="checkbox">KFC</input>
+            <input type="checkbox">Maccys</input>
+            <br />
+            <input list="browsers" />
+            <datalist id="browsers">
+                <option value="IE">internet explorer</option>
+                <option value="FF">Fire Fox</option>
+                <option value="GC">Google Chrome</option>
+                <option value="SF">Safari</option>
+            </datalist>
+        </fieldset>
 
-        <br/>
-        <input list="browsers"/>
-        <datalist id="browsers">
-            <option value="IE">internet explorer</option>
-            <option value="FF">Fire Fox</option>
-            <option value="GC">Google Chrome</option>
-            <option value="SF">Safari</option>
-        </datalist>
+        <fieldset>
+            <legend>Misc</legend>
+            <br />
+            <label>How old are you?</label>
+            <input type="number" disabled />
 
-        <br/>
-        <label>How old are you?</label>
-        <input type="number" disabled/>
+            <label>DOB:</label>
+            <input type="date" />
 
-        <label>DOB:</label>
-        <input type="date"/>
-
-        <label>Comments:</label>
-        <textarea row="10" cols="50" maxLength="3">
+            <label>Comments:</label>
+            <textarea row="10" cols="50" maxLength="3">
             Feedback?
         </textarea>
-        <br/>
+            <br />
+        </fieldset>
+
         <button type="submit">Submit</button>
         <button type="reset">Reset Values</button>
     </form>
