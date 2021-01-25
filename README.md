@@ -30,13 +30,13 @@ This repository looks at some of the core foundation of web dev namely:
 
 `CSS/`
 * Linking Stylesheets
- * External
- * Internal
- * Embedded
+  * External
+  * Internal
+  * Embedded
 * Font families
 * Compound rules
 * Selectors
- * By Id
- * By Class
- * Element + Id
- * Element + Class
+  * By Id
+  * By Class
+  * Element + Id
+  * Element + Class
