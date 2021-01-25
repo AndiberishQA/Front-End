@@ -29,5 +29,14 @@ This repository looks at some of the core foundation of web dev namely:
   * tfoot
 
 `CSS/`
-* Intro to CSS
-* Basic Selectors
+* Linking Stylesheets
+ * External
+ * Internal
+ * Embedded
+* Font families
+* Compound rules
+* Selectors
+ * By Id
+ * By Class
+ * Element + Id
+ * Element + Class
