@@ -1,5 +1,5 @@
 # DEC20-FE
-This repository looks at some of the core foundation of html namely:
+This repository looks at some of the core foundation of web dev namely:
 
 `HTML/`
 * Introduction to HTML
