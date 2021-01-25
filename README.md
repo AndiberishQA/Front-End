@@ -1,6 +1,7 @@
 # DEC20-FE
 This repository looks at some of the core foundation of html namely:
-HTML:
+
+`HTML/`
 * Introduction to HTML
 * Tags (Paired and self closing)
 * Attributes
@@ -26,3 +27,7 @@ HTML:
   * thead
   * tbody
   * tfoot
+
+`CSS/`
+* Intro to CSS
+* Basic Selectors
