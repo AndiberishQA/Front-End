@@ -43,3 +43,10 @@ This repository looks at some of the core foundation of web dev namely:
 * Pseudo Selectors 
   * Selecting via attribute/state
 * Box Model
+
+
+`Bootstrap/`
+* Importing CSS and JS
+* Navigation bar
+* Collapse
+* Grids
