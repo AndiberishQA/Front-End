@@ -40,3 +40,6 @@ This repository looks at some of the core foundation of web dev namely:
   * By Class
   * Element + Id
   * Element + Class
+* Pseudo Selectors 
+  * Selecting via attribute/state
+* Box Model
