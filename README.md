@@ -50,3 +50,6 @@ This repository looks at some of the core foundation of web dev namely:
 * Navigation bar
 * Collapse
 * Grids
+* Forms & Input
+* Modals
+
