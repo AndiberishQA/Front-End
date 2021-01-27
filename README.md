@@ -62,7 +62,7 @@ This repository looks at some of the core foundation of web dev namely:
  * Truthy & Falsey
  * Strict Equality & Inequality
  
- `02-Iterator/`
+ `02-Flow-of-control/`
   * ASI
   * `x++` and `++x`
   * For Loop
