@@ -67,8 +67,10 @@ console.log(blue);
 let blueToText = JSON.stringify(blue);
 console.log(typeof blue);
 console.log(typeof blueToText);
+console.log(blueToText);
 
 let userData = `{"name":"sav"}`;
 console.log(typeof userData);
 let obj = JSON.parse(userData);
+console.log(obj);
 console.log(typeof obj);
