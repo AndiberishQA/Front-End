@@ -20,7 +20,9 @@ const hello = function(){
 hello();
 
 // arrow function 
-// syntax: const/let nameoffunction = () => {}
+// syntax: const <name> = () => dosomethinginreturn
+
+const hello = () => console.log("how you doing");
 
 // arrow function - with no parameters
 const addition = () => {
