@@ -59,11 +59,11 @@ This repository looks at some of the core foundation of web dev namely:
  * Data types
  * Printing information to the console
  * Template Literals
- * Truthy & Falsey
- * Strict Equality & Inequality
+ * ASI
  
  `02-Flow-of-control/`
-  * ASI
+  * Truthy & Falsey
+  * Strict Equality & Inequality
   * `x++` and `++x`
   * For Loop
   * Switch case
