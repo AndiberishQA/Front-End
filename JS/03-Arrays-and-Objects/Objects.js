@@ -57,7 +57,9 @@ let myJSONObject = {
     ]
 }
 
-myJSONObject.tescos.push({"productname":"nail polish remover", "price": 3.99, "quantity":9});
+let toAdd = {"productname": "nail polish remover", "price": 3.99, "quantity": 9 };
+
+myJSONObject.tescos.push(toAdd);
 
 console.log(myJSONObject);
 
@@ -66,27 +68,7 @@ let blueToText = JSON.stringify(blue);
 console.log(typeof blue);
 console.log(typeof blueToText);
 
-let userData = `{"name":"sav"}`
+let userData = `{"name":"sav"}`;
 console.log(typeof userData);
 let obj = JSON.parse(userData);
 console.log(typeof obj);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
