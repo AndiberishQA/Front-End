@@ -30,7 +30,7 @@ console.log(classroom); //
 
 // Arrays can be resized at any time!
 let students = Array(10); 
-students[11] = "hello"
+students[11] = "hello";
 console.log(students.length); 
 
 // methods!
@@ -51,4 +51,14 @@ console.log(fruits);
 
 // shift() = remove from the start
 fruits.shift(); 
+console.log(fruits);
+
+for(let i=0; i<fruits.length; i++){
+    console.log(fruits[i]);
+}
+
+for(let fruit of fruits){
+    console.log(fruit);
+}
+
 console.log(fruits);
