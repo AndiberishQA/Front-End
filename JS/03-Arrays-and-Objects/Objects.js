@@ -20,7 +20,7 @@ blue["make"] = "hyundai";
 blue["model"] = "i30"; 
 blue["colour"] = "gorgeous"; 
 
-console.log(blue);
+console.log(blue); // {make: "hyundai", model:"i30", color:"gorgeous"}
 
 for(let attributes in blue){
     console.log(`key:${attributes} value: ${blue[attributes]}`);
@@ -37,8 +37,56 @@ console.log(carpark);
 for(let cp of carpark){
     console.log(cp);
     for(let car in cp){
-        console.log(car); // returns the keys of the object
-        console.log(cp[car]); // returns the value
+        // console.log(car); // returns the keys of the object
+        // console.log(cp[car]); // returns the value
         console.log(`key: ${car} value: ${cp[car]}`); // key:[key] value:[value]
     }
 }
+
+// JSON = javascript object notation 
+// key : value , key2: value2, 
+
+let myJSONObject = {
+    "tescos":[
+        {"productname" : "7up", "price": 0.99, "quantity" : 100},
+        {"productname" :  "flowers", "price" : 15.99, "quantity":200}
+    ], 
+    "cars": [
+        { "make": "Audi", "model": "A5", "colour": "Silver" },
+        { "make": "Merc", "model": "C", "color": "grey" }
+    ]
+}
+
+myJSONObject.tescos.push({"productname":"nail polish remover", "price": 3.99, "quantity":9});
+
+console.log(myJSONObject);
+
+console.log(blue);
+let blueToText = JSON.stringify(blue);
+console.log(typeof blue);
+console.log(typeof blueToText);
+
+let userData = `{"name":"sav"}`
+console.log(typeof userData);
+let obj = JSON.parse(userData);
+console.log(typeof obj);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
