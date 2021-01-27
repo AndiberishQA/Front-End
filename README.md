@@ -53,3 +53,19 @@ This repository looks at some of the core foundation of web dev namely:
 * Forms & Input
 * Modals
 
+`JS/`
+
+ `01-Fundamentals/`
+ * Data types
+ * Printing information to the console
+ * Template Literals
+ * Truthy & Falsey
+ * Strict Equality & Inequality
+ 
+ `02-Iterator/`
+  * ASI
+  * `x++` and `++x`
+  * For Loop
+  * Switch case
+  * While loop
+  * Do While Loop
