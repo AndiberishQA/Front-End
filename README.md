@@ -69,3 +69,11 @@ This repository looks at some of the core foundation of web dev namely:
   * Switch case
   * While loop
   * Do While Loop
+
+  `03-Arrays-and-Objects/`
+  * Arrays explained
+  * `push()` `pop()` `shift()` `unshift()`
+  * Objects
+  * Looping through both objects
+  * Enhanced for loops
+  * JSON
