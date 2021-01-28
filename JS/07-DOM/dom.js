@@ -21,3 +21,7 @@ let theText = document.createTextNode("We love JS!"); // we love JS
 newHeading.appendChild(theText); // <h1> we love js </h1>
 
 divs.appendChild(newHeading);
+
+let newImage = document.createElement("img"); 
+newImage.setAttribute("src","../../Resources/pretty.jpg");
+divs.appendChild(newImage);
