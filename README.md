@@ -28,7 +28,7 @@ This repository looks at some of the core foundation of web dev namely:
   * tbody
   * tfoot
 
-[Back to top](#-DEC20-FE)
+[Back to top](#dec20-fe)
 
 `CSS/`
 * Linking Stylesheets
@@ -55,7 +55,7 @@ This repository looks at some of the core foundation of web dev namely:
 * Forms & Input
 * Modals
 
-[Back to top](#-DEC20-FE)
+[Back to top](#dec20-fe)
 
 `JS/`
 
@@ -82,7 +82,7 @@ This repository looks at some of the core foundation of web dev namely:
   * Enhanced for loops
   * JSON
 
-  [Back to top](#-DEC20-FE)
+  [Back to top](#dec20-fe)
 
   `04-Scope/`
   * Local and global scope
@@ -106,7 +106,7 @@ This repository looks at some of the core foundation of web dev namely:
   * If `reject()` go to first `.catch()`
   * Once handled, will execute any `.then()` that comes after.
 
-  [Back to top](#-DEC20-FE)
+  [Back to top](#dec20-fe)
 
   `07-DOM/`
   * Manipulating the DOM
@@ -124,4 +124,4 @@ This repository looks at some of the core foundation of web dev namely:
   * Understanding how to get info from an API 
   * How to POST info to an API
 
-  [Back to top](#-DEC20-FE)
+  [Back to top](#dec20-fe)
