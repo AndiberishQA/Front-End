@@ -3,12 +3,14 @@
 const peeps = document.querySelector("#peeps"); 
 const username = document.querySelector("#name"); 
 const job = document.querySelector("#job"); 
+const alert = document.querySelector("#onsuccess");
+const modal = document.querySelector("#firstModal");
 
 
 const printNameToScreen = (username) => {
-    let user = document.createElement("p"); 
-    let text = document.createTextNode(`${username}`); 
-    user.appendChild(text); 
+    let user = document.createElement("p"); // <p> </p>
+    let text = document.createTextNode(`${username}`); // username
+    user.appendChild(text); // <p> username </p>
     peeps.appendChild(user);
 }
 
@@ -53,7 +55,15 @@ const createUsers = () => {
         }
     })
     .then(response => response.json())
-    .then(info => console.log(info))
+    .then(info => {
+        console.log(info);
+        alert.setAttribute("class", "alert alert-success"); 
+        alert.innerHTML = "User has been successfully created!"; 
+        setTimeout( () => {
+           alert.removeAttribute("class"); 
+           alert.innerHTML = ""; 
+        },2000);
+    })
     .catch(err => console.error(`Stopppppp! ${err}`));
 }
 
